@@ -1,0 +1,88 @@
+body {
+    background: #555555 url("back2.png") no-repeat left top;
+    font-family: 'Comfortaa', cursive;
+
+}
+ul li {
+    list-style-type: none;
+}
+a {
+    color: darksalmon;
+}
+header {
+    margin: 15px 30% ;
+    width:33%;
+    color: white;
+    background-color: teal;
+    padding: 5%;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.class-1 {
+    width: 70px;
+    height: 70px;
+}
+.class-2 {
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.class-3 {
+    float: right;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+#id-1 {
+    float: right;
+    margin-right: -40px;
+    margin-top: -20px;
+}
+main {
+    margin: 15px 30% ;
+    width:33%;
+    color: white;
+    background-color: #555555;
+    padding: 5%;
+    border-radius: 0 0 10px 10px;
+}
+.ad {
+    margin: 10px 30% ;
+width:33%;
+color: white;
+background-color: #555555;
+padding: 5%;
+border-radius: 10px 10px 10px 10px;
+}
+.head-foot {
+    border-bottom: 3px solid #555555
+}
+footer {
+    background-color: teal;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+td {
+    width: 250px;
+}
+table {
+    width: 100%;
+}
+.a-foot {
+    color: white;
+    text-decoration: none;
+}
+div.cat-div {
+    display: none;
+}
+a.cat:hover+div {
+
+    display: block
+
+}
+.photo {
+    border-radius: 40px;
+}
+a.cat {
+    text-decoration: none;
+}
