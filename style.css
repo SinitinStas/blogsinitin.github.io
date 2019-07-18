@@ -1,7 +1,7 @@
 body {
     background: #555555 url("back2.png") no-repeat;
     font-family: 'Comfortaa', cursive;
-    background-size: auto;
+    background-width: auto;
 }
 ul li {
     list-style-type: none;
