@@ -1,7 +1,7 @@
 body {
-    background: #555555 url("back.jpg") no-repeat;
+    background: #555555 url("back.jpg") ;
     font-family: 'Comfortaa', cursive;
-    background-size: 100%;
+    background-size: 110%;
     background-attachment: fixed;
 }
 ul li {
@@ -87,4 +87,12 @@ a.cat:hover+div {
 }
 a.cat {
     text-decoration: none;
+}
+dt {
+    color: lightseagreen;
+    padding-left: 20px;
+}
+dd {
+    padding-right: 20px;
+    color: #D3D3D3;
 }
