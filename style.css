@@ -2,6 +2,7 @@ body {
     background: #555555 url("back.jpg") no-repeat;
     font-family: 'Comfortaa', cursive;
     background-size: 100%;
+    background-attachment: fixed;
 }
 ul li {
     list-style-type: none;
@@ -63,7 +64,8 @@ footer {
     color: white;
 }
 td {
-    width: 250px;
+    width: 200px;
+    text-align: center;
 }
 table {
     width: 100%;
