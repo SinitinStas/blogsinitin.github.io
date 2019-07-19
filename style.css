@@ -1,7 +1,7 @@
 body {
     background: #555555 url("back.jpg") ;
     font-family: 'Comfortaa', cursive;
-    background-size: 110%;
+    background-size: 100%;
     background-attachment: fixed;
 }
 ul li {
@@ -38,6 +38,7 @@ header {
     float: right;
     margin-right: -40px;
     margin-top: -20px;
+    margin-left: 5px;
 }
 main {
     margin: 15px 30% ;
@@ -95,4 +96,63 @@ dt {
 dd {
     padding-right: 20px;
     color: #D3D3D3;
+}
+/* ----------- адаптация под моб----------------*/
+@media (min-width: 0px) and (max-width: 320px) {
+    .class-1 {
+        width: 35px;
+        height: 35px
+    }
+
+    .class-2 {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .class-3 {
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    header {
+        text-align: center;
+        width: auto;
+        margin: 10px 10px 10px 10px;
+        color: white;
+        background-color: teal;
+        padding: 10px;
+        border-radius: 5px 5px 0 0;
+        font-size: 12px;
+    }
+
+    #id-1 {
+        float: right;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-left: 5px;
+        width: 60px;
+    }
+
+    main {
+        width: auto;
+        margin: 10px 10px 10px 10px;
+        padding: 10px;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .ad {
+        width: auto;
+        margin: 10px 10px 10px 10px;
+        padding: 10px;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .home {
+        width: 15px;
+    }
+    td {
+        width: auto;
+        text-align: center;
+        font-size: 9px;
+
 }
