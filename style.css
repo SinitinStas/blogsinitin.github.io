@@ -11,7 +11,9 @@ a {
     color: darksalmon;
 }
 header {
-    margin: 15px 30% ;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
     width:33%;
     color: white;
     background-color: teal;
@@ -41,7 +43,9 @@ header {
     margin-left: 5px;
 }
 main {
-    margin: 15px 30% ;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
     width:33%;
     color: white;
     background-color: #555555;
@@ -49,7 +53,9 @@ main {
     border-radius: 0 0 10px 10px;
 }
 .ad {
-    margin: 10px 30% ;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 width:33%;
 color: white;
 background-color: #555555;
@@ -162,5 +168,4 @@ blockquote {
         width: auto;
         text-align: center;
         font-size: 9px;
-
-}
+    }}
