@@ -1,8 +1,8 @@
 var scores, round_score, active_player, game_playing;
 var name1 = prompt('Name of the 1st player:');
-document.getElementById('#name-0').textContent = name1;
+document.querySelector('#name-0').textContent = name1;
 var name2 = prompt('Name of the 2nd player:');
-document.getElementById('#name-1').textContent = name2;
+document.querySelector('#name-1').textContent = name2;
 init();
 
 
@@ -13,12 +13,12 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
         var dice2 = Math.floor(Math.random() * 6) + 1;
 
         // display the result
-        var diceDOM1 = document.querySelector('#dice-1');
-        diceDOM1.style.display = 'block';
-        diceDOM1.src = 'dice-' + dice1 + '.png';
-        var diceDOM2 = document.querySelector('#dice-2');
-        diceDOM2.style.display = 'block';
-        diceDOM2.src = 'dice-' + dice2 + '.png';
+        var diceDOM = document.querySelector('#dice-1');
+        diceDOM.style.display = 'block';
+        diceDOM.src = 'dice-' + dice1 + '.png';
+        var diceDOM = document.querySelector('#dice-2');
+        diceDOM.style.display = 'block';
+        diceDOM.src = 'dice-' + dice2 + '.png';
         // update round score IF rolled score was not a 1
         if (dice1 !== 1 && dice2 !== 1) {
             //add score
