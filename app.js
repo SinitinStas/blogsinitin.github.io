@@ -39,10 +39,11 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
 });
 
     document.querySelector('.btn-hold').addEventListener('click', function () {
+    if (game_playing) {
         // add current score to global score
         scores[active_player] += round_score;
         //update the user int
-document.querySelector('#score-' + active_player).textContent = scores[active_player];
+        document.querySelector('#score-' + active_player).textContent = scores[active_player];
         // Check if player won the game
         if (scores[active_player] >=200) {
             document.querySelector('#name-' + active_player).textContent = 'WINNER!';
@@ -54,6 +55,7 @@ document.querySelector('#score-' + active_player).textContent = scores[active_pl
         } else {
             nextPlayer ()
         }
+    }
 
     });
 
